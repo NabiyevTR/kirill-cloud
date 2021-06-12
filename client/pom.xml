@@ -5,6 +5,7 @@
         <groupId>ru.gb</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    <groupId>ru.gb</groupId>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>client</artifactId>
     <properties>
@@ -34,6 +35,7 @@
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
+
     </dependencies>
     <build>
         <plugins>
@@ -55,7 +57,7 @@
                         <!-- Usage: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>ru.gb.App</mainClass>
+                            <mainClass>client.App</mainClass>
                         </configuration>
                     </execution>
                 </executions>

@@ -2,8 +2,9 @@ package server;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import ru.gb.cloud.common.messages.GetFilesMessage;
-import ru.gb.cloud.common.messages.Message;
+import client.common.messages.GetFilesMessage;
+import client.common.messages.Message;
+
 
 public class MessageHandler extends SimpleChannelInboundHandler<Message> {
     @Override

@@ -1,2 +1,8 @@
 
 .idea/
+
+common/target/
+
+client/target
+
+server/target
